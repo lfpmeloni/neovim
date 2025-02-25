@@ -29,7 +29,7 @@
 | h, j, k, l | left, down, up, right (LDUR) |
 | u | undo last command |
 | U | fix (undo) the complete line |
-| <C-r> | redo (undo the undo) |
+| `<C-r>` | redo (undo the undo) |
 | x | delete the character under the cursor |
 | i | enter insert mode and <Esc> to go back to NORMAL mode |
 | a | append text after the cursor |
@@ -44,14 +44,14 @@
 | r | replace character |
 | R | replace more then one character |
 | c | change + motion (ce change until end of word) |
-| <C-g> | show location in a file and file status |
+| `<C-g>` | show location in a file and file status |
 | / and ? | search forward and backward |
 | n | next found word |
-| <C-o> | move cursor back where it came from |
-| <C-i> | move cursor forward |
+| `<C-o>` | move cursor back where it came from |
+| `<C-i>` | move cursor forward |
 | % | find matching when cursor on (, [, { |
 | . | repeat the last command |
-| N<command> | repeat the command N times |
+| `N<command>` | repeat the command N times |
 | q + registry | record something (start and stop) |
 | @registry | reply the macro |
 | @@ | reply last macro |
@@ -106,6 +106,6 @@
 
 | Keybind       | Shortcut                              |
 |---------------|---------------------------------------|
-| <Esc> | leave mode |
-| <C-w><C-w> | togle multiple windoes (:help for example) |
+| `<Esc>` | leave mode |
+| `<C-w><C-w>` | togle multiple windows (:help for example) |
 
