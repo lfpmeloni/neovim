@@ -4,12 +4,12 @@
 
 | Keybind       | Shortcut                              |
 |---------------|---------------------------------------|
-| '<C-n>'       | Neo-Tree filesystem reveal            |
-| '<C-p>'       | Telescope find files                  |
-| '<leader>fg   | Telescope live grep                   |
-| 'K'           | lsp buf hover                         |
-| 'cg'          | lsp buf definition                    |
-| '<leader>ca   | lsp buf code action                   |
+| `<C-n>`       | Neo-Tree filesystem reveal            |
+| `<C-p>`       | Telescope find files                  |
+| `<leader>fg`  | Telescope live grep                   |
+| `K`           | lsp buf hover                         |
+| `cg`          | lsp buf definition                    |
+| `<leader>ca`  | lsp buf code action                   |
 
 ## Standard
 
@@ -63,7 +63,7 @@
 - [number]-G : move to the desired line
 - * or # : go to net or previous occurence of the word under the cursor
 
-### COMMAND Mode (start with ':')
+### COMMAND Mode (start with `:`)
 
 - :q : quit + flags 
     - :q! discards everything
