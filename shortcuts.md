@@ -2,12 +2,14 @@
 
 ## Added
 
-- <C-n> : Neotree filesystem reveal left
-- <C-p> : Telescope find files
-- <leader>fg : Telescope live grep
-- K : lsp buf hover
-- cg : lsp buf definition
-- <leader>ca : lsp buf code action
+| Keybind       | Shortcut                              |
+|---------------|---------------------------------------|
+| '<C-n>'       | Neo-Tree filesystem reveal            |
+| '<C-p>'       | Telescope find files                  |
+| '<leader>fg   | Telescope live grep                   |
+| 'K'           | lsp buf hover                         |
+| 'cg'          | lsp buf definition                    |
+| '<leader>ca   | lsp buf code action                   |
 
 ## Standard
 
