@@ -40,6 +40,7 @@
 | o | open new line bellow  |
 | O | open new line above |
 | v | visual selection |
+| V | visual line selection |
 | y | yank (copy) + motion (yw yank word / yy yank line) |
 | p | put bellow (paste deleted/copied buffer) |
 | P | put above |
@@ -88,6 +89,7 @@
 | :w | write |
 | :wq | write and quit|
 | :wqa | write and quit all|
+| :%y+ | copy all file to clipboard |
 | :s/old/new/flag | substitute old for new (without flag substitutes the next found)|
 | g | globally within line |
 | gc | with prompt to confirm change or not |
