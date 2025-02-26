@@ -19,6 +19,9 @@
 | `<CR>`        | snip completion confirm               |
 | `<leader>dt`  | debugging toggle breakpoint           |
 | `<leader>dc`  | debugging continue                    |
+| `<leader>h`   | 42 header                             |
+| `<leader>g`   | 42 norminette after save              |
+| `<leader>f`   | 42 c_formatter_42 after save          |
 
 ## Standard
 
